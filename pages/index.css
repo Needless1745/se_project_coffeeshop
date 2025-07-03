@@ -98,3 +98,8 @@
   text-decoration: none;
   color: #000000;
 }
+
+.recipes {
+  background: center / cover no-repeat #0a2750
+    url(../images/se_project_2_files/background_recipes.svg);
+}
