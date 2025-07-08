@@ -23,11 +23,6 @@
     <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
   </head>
   <body>
     <div class="page">
@@ -113,7 +108,56 @@
             </li>
           </ul>
         </section>
-        <section id="reservation" class="reservation"></section>
+        <section id="reservation" class="reservation">
+          <h2 class="reservation__title">Book a table</h2>
+          <form class="reservation__form form">
+            <fieldset class="form__fieldset">
+              <label for="name-input" class="form__label">
+                Name *
+                <input
+                  id="name-input"
+                  type="text"
+                  class="form__input"
+                  required
+                  placeholder="Name Surname"
+              /></label>
+              <label for="guests-input" class="form__label"
+                >Number of guests *
+                <input
+                  id="guests-input"
+                  type="number"
+                  class="form__input"
+                  required
+                  min="1"
+                  max="8"
+                  placeholder="1-8"
+                />
+              </label>
+              <label for="datetime-input" class="form__label"
+                >Date & time *
+                <input
+                  id="datetime-input"
+                  type="datetime-local"
+                  class="form__input"
+                  required
+              /></label>
+              <label for="email-input" class="form__label"
+                >Your email *
+                <input
+                  id="email-input"
+                  type="email"
+                  class="form__input"
+                  required
+                  placeholder="email@email.com"
+              /></label>
+            </fieldset>
+            <button class="form__button">Book a table</button>
+          </form>
+          <label for="terms-check" class="form__label form__label_type_checkbox"
+            ><input id="terms-check" type="checkbox" class="form__checkbox" />I
+            agree with the terms of use</label
+          >
+        </section>
         <section id="menu" class="menu"></section>
         <section id="about" class="about"></section>
       </main>
