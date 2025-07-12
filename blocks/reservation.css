@@ -94,3 +94,7 @@
   background-position: center;
   background-image: url(../images/se_project_2_files/check.svg);
 }
+
+.form__button:hover {
+  opacity: 70%;
+}
