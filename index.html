@@ -13,12 +13,6 @@
       name="keywords"
       content="coffee shop, machiatto, local cafe, mocha, banana bread, baked goods, cozy"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;100..900&display=swap"
-      rel="stylesheet"
-    />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -116,19 +110,17 @@
           <h2 class="reservation__title">Book a table</h2>
           <form class="reservation__form form">
             <fieldset class="form__fieldset">
-              <label for="name-input" class="form__label">
+              <label class="form__label">
                 Name *
                 <input
-                  id="name-input"
                   type="text"
                   class="form__input"
                   required
                   placeholder="Name Surname"
               /></label>
-              <label for="guests-input" class="form__label"
+              <label class="form__label"
                 >Number of guests *
                 <input
-                  id="guests-input"
                   type="number"
                   class="form__input"
                   required
@@ -137,18 +129,13 @@
                   placeholder="1-8"
                 />
               </label>
-              <label for="datetime-input" class="form__label"
+              <label class="form__label"
                 >Date & time *
-                <input
-                  id="datetime-input"
-                  type="datetime-local"
-                  class="form__input"
-                  required
+                <input type="datetime-local" class="form__input" required
               /></label>
-              <label for="email-input" class="form__label"
+              <label class="form__label"
                 >Your email *
                 <input
-                  id="email-input"
                   type="email"
                   class="form__input"
                   required
@@ -156,15 +143,9 @@
               /></label>
             </fieldset>
             <button class="form__button">Book a table</button>
-            <label
-              for="terms-check"
-              class="form__label form__label_type_checkbox"
-              ><input
-                required
-                id="terms-check"
-                type="checkbox"
-                class="form__checkbox"
-              />I agree with the terms of use</label
+            <label class="form__label form__label_type_checkbox"
+              ><input required type="checkbox" class="form__checkbox" />I agree
+              with the terms of use</label
             >
           </form>
         </section>
@@ -268,7 +249,7 @@
             alt="Triple Peaks coffeeshop logo"
           />
           <div class="footer__column">
-            <h3 class="footer__column-heading">Social media</h3>
+            <h3 class="footer__social-heading">Social media</h3>
             <ul class="footer__list">
               <li class="footer__list-item">
                 <a href="#" class="footer__social-link"
