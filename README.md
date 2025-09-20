@@ -12,7 +12,7 @@ A responsive front-end project showcasing a cozy coffee shop inside the Triple P
 ##  Tech Stack  
 - **HTML5**  
 - **CSS3**  
-- Deployed via **GitHub Pages**  
+- **BEM (Block Element Modifier)**
 
 ##  Future Enhancements  
 - Add interactivity with **JavaScript** (form validation, dynamic menu)  
@@ -20,4 +20,4 @@ A responsive front-end project showcasing a cozy coffee shop inside the Triple P
 - Include more visuals and gallery pages  
 
 ## Live Demo  
- [View the project](https://needless1745.github.io/se_project_coffeeshop/)  
+ [View Here](https://needless1745.github.io/se_project_coffeeshop/)  
