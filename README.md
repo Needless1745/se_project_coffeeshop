@@ -1,13 +1,23 @@
-# Triple Peaks Coffee Shop
+# Triple Bean Coffee Shop 
 
-This is the second project of the Software Engineering program at TripleTen. It was created using HTML and CSS, based on the design brief.
+A responsive front-end project showcasing a cozy coffee shop inside the Triple Peaks Library. Built with **HTML5** and **CSS3**, this site highlights clean design, semantic structure, and accessibility.  
 
-## Project features
+##  Features  
+- Multi-section layout (Menu, Booking, About, Recipes, Contact)  
+- Responsive design for desktop and mobile  
+- Semantic HTML for accessibility and SEO  
+- Styled with reusable CSS components  
+- Static deployment on **GitHub Pages**  
 
-- Semantic HTML5
-- Flexbox
-- Positioning
-- Flat BEM file structure
-- A custom form
-- CSS animation and transform
+##  Tech Stack  
+- **HTML5**  
+- **CSS3**  
+- Deployed via **GitHub Pages**  
 
+##  Future Enhancements  
+- Add interactivity with **JavaScript** (form validation, dynamic menu)  
+- Improve accessibility features (ARIA labels, alt text refinements)  
+- Include more visuals and gallery pages  
+
+## Live Demo  
+ [View the project](https://needless1745.github.io/se_project_coffeeshop/)  
