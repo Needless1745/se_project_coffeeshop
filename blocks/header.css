@@ -4,6 +4,8 @@
   height: 800px;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
   z-index: -1;
 }
 
@@ -38,10 +40,10 @@
 }
 
 .header__image {
-  position: absolute;
+  position: static;
   top: 124px;
   right: 5px;
-  width: 646px;
+  width: 50%;
   height: 568px;
   z-index: 0;
 }
